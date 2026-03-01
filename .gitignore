@@ -65,8 +65,9 @@ logs/
 *.temp
 
 # Database
-*.sql
 *.db
+# Allow SQL files in docs folder
+!docs/*.sql
 
 # Docker
 .dockerignore
